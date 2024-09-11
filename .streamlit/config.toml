@@ -1,6 +1,20 @@
 [theme]
-primaryColor="#FF4B4B"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#31333F"
+primaryColor="#2B2B2B"
+backgroundColor="black"
+secondaryBackgroundColor="#2B2B2B"
+textColor="#C5F9C7"
 font="sans serif"
+
+# txt_color = '#C5F9C7'
+# txt_color_alt = 'black'
+# front = '#FF00E6'
+# back = '#00FFE0'
+# ground = '#FF0000'
+# roof = '#00FF0A'
+# wall = '#FAFF00'
+# foreground = '#2B2B2B'
+# background = 'black'
+# entry_bg = background
+# iniciar_button = txt_color
+# desenhar_color = '#FF4DD8'
+# calcular_color = '#00FF0A'
