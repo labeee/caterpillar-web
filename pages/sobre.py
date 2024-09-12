@@ -26,8 +26,8 @@ st.markdown(
 if st.button("Voltar", use_container_width=True):
     switch_page('app')
 
+st.title("CATERPILLAR WEB - SOBRE")
 with st.container(border=True):
-    st.title("CATERPILLAR WEB - SOBRE")
     st.markdown(
         """
 Esta é a nova versão de uma antiga ferramenta desenvolvida no LabEEE, 
@@ -57,9 +57,9 @@ Feito por Zac Milioli, LabEEE 2024
 - [Linkedin](https://www.linkedin.com/in/zac-milioli/)
 - [GitHub](https://github.com/Zac-Milioli)""")
 
-    cols = st.columns(8)
-    cols[2].image(r"static/icon_default.ico", width=75)
-    cols[3].image(r"static/icon_Sakura.ico", width=75)
-    cols[4].image(r"static/icon_Steel.ico", width=75)
-    cols[5].image(r"static/icon_Console.ico", width=75)
+cols = st.columns(8)
+cols[2].image(r"static/icon_default.ico", width=75)
+cols[3].image(r"static/icon_Sakura.ico", width=75)
+cols[4].image(r"static/icon_Steel.ico", width=75)
+cols[5].image(r"static/icon_Console.ico", width=75)
     
