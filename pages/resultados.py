@@ -26,6 +26,10 @@ st.markdown(
 if st.button("Voltar", use_container_width=True):
     switch_page('app')
 
-st.title("Resultados")
+cols = st.columns(2)
+cols[0].title("Resultados")
+cols[1].subheader('')
+cols[1].download_button("Baixar Resultados", data=st.session_state.get('resultados').replace('#', '').replace('---', '-'*40), file_name="resultados.txt", use_container_width=True)
+
 with st.container(border=True):
     st.markdown(st.session_state.get('resultados'))

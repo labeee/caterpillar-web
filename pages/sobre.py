@@ -44,7 +44,7 @@ e clicar no botão "Calcular".""")
         """
 Assim que os cálculos forem feitos, o usuário será
 redirecionado para uma nova página contendo os resultados, que
-podem ser baixados selecionando o botão "Baixar" ou simplesmente
+podem ser baixados selecionando o botão "Baixar Resultados" ou simplesmente
 copiados para o clipboard.
 """)
 
