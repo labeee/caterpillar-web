@@ -32,7 +32,9 @@ with st.container(border=True):
         """
 Esta é a nova versão de uma antiga ferramenta desenvolvida no LabEEE, 
 uma Calculadora de Assimetria de Temperatura Radiante Plana 
-(de acordo com a ISO 7726 de 1998). Há uma versão já desenvolvida em executável, 
+(de acordo com a ISO 7726 de 1998). 
+
+Há uma nova versão já desenvolvida com python em forma de executável, 
 com desenhos do ambiente feitos em tempo real que pode ser 
 encontrada [aqui](https://github.com/labeee/Caterpillar-CATeRP) 
 
