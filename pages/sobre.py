@@ -28,6 +28,9 @@ if st.button("Voltar", use_container_width=True):
 
 st.title("CATERPILLAR WEB - SOBRE")
 with st.container(border=True):
+    st.markdown("""
+    O repositório no GitHub onde está a ferramenta pode ser encontrado [aqui](https://github.com/labeee/caterpillar-web).""")
+    
     st.markdown(
         """
 Esta é a nova versão de uma antiga ferramenta desenvolvida no LabEEE, 
