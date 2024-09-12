@@ -48,7 +48,8 @@ podem ser baixados selecionando o botão "Baixar Resultados" ou simplesmente
 copiados para o clipboard.
 """)
 
-    st.title('')
+    with st.expander("Desenho do ambiente para referência (print da versão desktop)"):
+        st.image(r'static/desenho_ambiente.png', use_column_width=True)
     
     st.markdown(
         """
