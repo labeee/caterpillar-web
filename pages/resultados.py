@@ -1,5 +1,6 @@
 if __name__ == "__main__":
     import streamlit as st
+    from pages.pages import switch_page
 
 st.set_page_config(
     page_title="CATERPILLAR - RESULTADOS",
@@ -22,14 +23,9 @@ st.markdown(
 </style>
 """, unsafe_allow_html=True,)
 
+if st.button("Voltar", use_container_width=True):
+    switch_page('app')
+
+st.title("Resultados")
 with st.container(border=True):
-    st.title("Resultados")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
-    st.markdown("Aqui estão os resultados do cálculo de assimetria térmica.")
+    st.markdown(st.session_state.get('resultados'))

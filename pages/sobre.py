@@ -1,6 +1,6 @@
 if __name__ == "__main__":
     import streamlit as st
-    from src.pages import switch_page
+    from pages.pages import switch_page
 
 st.set_page_config(
     page_title="CATERPILLAR - SOBRE",
@@ -24,7 +24,7 @@ st.markdown(
 """, unsafe_allow_html=True,)
 
 if st.button("Voltar", use_container_width=True):
-    st.switch_page('app')
+    switch_page('app')
 
 with st.container(border=True):
     st.title("CATERPILLAR WEB - SOBRE")
@@ -37,9 +37,8 @@ com desenhos do ambiente feitos em tempo real que pode ser
 encontrada [aqui](https://github.com/labeee/Caterpillar-CATeRP) 
 
 Seu uso é simples, basta inserir todas as medidas do
-ambiente conforme indicado nas caixas de entrada e clicar no botão "Calcular".""")
-
-    st.warning("É **crucial** que as medidas sejam inseridas na unidade correta", icon="ℹ️")
+ambiente conforme indicado nas caixas de entrada, na unidade de medida indicada,
+e clicar no botão "Calcular".""")
 
     st.markdown(
         """
@@ -57,3 +56,10 @@ Feito por Zac Milioli, LabEEE 2024
 - zacmilioli@gmail.com
 - [Linkedin](https://www.linkedin.com/in/zac-milioli/)
 - [GitHub](https://github.com/Zac-Milioli)""")
+
+    cols = st.columns(8)
+    cols[2].image(r"static/icon_default.ico", width=75)
+    cols[3].image(r"static/icon_Sakura.ico", width=75)
+    cols[4].image(r"static/icon_Steel.ico", width=75)
+    cols[5].image(r"static/icon_Console.ico", width=75)
+    
