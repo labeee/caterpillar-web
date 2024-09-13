@@ -9,6 +9,8 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+st.markdown("#")
+
 st.markdown(
     """
 <style>
@@ -58,7 +60,6 @@ with st.container(border=True):
             y not in [0.0, comprimento],
             z not in [0.0, altura]
         ])
-        print(check_position)
         if check_inputs:
             st.warning("Insira todos os dados para prosseguir", icon="ℹ️")
         elif not check_position:
