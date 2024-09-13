@@ -28,8 +28,7 @@ if st.button("Voltar", use_container_width=True):
 
 st.title("CATERPILLAR WEB - SOBRE")
 with st.container(border=True):
-    st.markdown("""
-    O repositório no GitHub onde está a ferramenta pode ser encontrado [aqui](https://github.com/labeee/caterpillar-web).""")
+    st.markdown("""O repositório no GitHub onde está a ferramenta pode ser encontrado [aqui](https://github.com/labeee/caterpillar-web).""")
     
     st.markdown(
         """
@@ -68,4 +67,3 @@ cols[2].image(r"static/icon_default.ico", width=75)
 cols[3].image(r"static/icon_Sakura.ico", width=75)
 cols[4].image(r"static/icon_Steel.ico", width=75)
 cols[5].image(r"static/icon_Console.ico", width=75)
-    
