@@ -10,8 +10,9 @@ st.set_page_config(
 )
 
 cols = st.columns([0.4,1,0.3])
-cols[1].markdown("# CATERPILLAR WEB")
+cols[1].title("CATERPILLAR WEB")
 cols[2].image(r"static/icon_default.ico", width=100)
+st.markdown('#')
 
 st.markdown(
     """
