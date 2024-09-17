@@ -1,7 +1,6 @@
 import streamlit as st
 from pages.pages import switch_page
 from src.assimetry import assimetry 
-st.markdown('#')
 
 st.set_page_config(
     page_title="CATERPILLAR",
@@ -10,6 +9,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+st.markdown('#')
 cols = st.columns([0.4,1,0.3])
 cols[1].title("CATERPILLAR WEB")
 cols[2].image(r"static/icon_default.ico", width=100)
