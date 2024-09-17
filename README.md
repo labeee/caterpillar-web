@@ -30,7 +30,7 @@ Feito por Zac Milioli, LabEEE 2024
 
 <div align="center">
 <h3><strong>Versão atual: 🎉</strong></h3> 
-1.0
+1.0.1
 <br>
 </div>
 

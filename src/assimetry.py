@@ -53,6 +53,23 @@ def assimetry(largura, comprimento, altura, x, y, z, frontal, posterior, teto, p
     y = y
     z = z
 
+    inputs = f"""
+---
+## Inputs
+    {temp_frontal=}
+    {temp_posterior=}
+    {temp_teto=}
+    {temp_piso=}
+    {temp_lat_dir=}
+    {temp_lat_esq=}
+    {largura=}
+    {comprimento=}
+    {altura=}
+    {x=}
+    {y=}
+    {z=}
+"""
+
     temps = {
     'temp_frontal': temp_frontal,
     'temp_posterior': temp_posterior,
@@ -424,5 +441,5 @@ def assimetry(largura, comprimento, altura, x, y, z, frontal, posterior, teto, p
 - Parede frontal: {result_data['ff_posterior_piso_total']}
 """
 
-    resultados = resultados_frontal + resultados_direita + resultados_teto
+    resultados =  resultados_frontal + resultados_direita + resultados_teto + inputs
     return resultados

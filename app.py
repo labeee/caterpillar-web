@@ -23,7 +23,7 @@ st.markdown(
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
 </style>
-""", unsafe_allow_html=True,)
+""", unsafe_allow_html=True)
 
 
 cols = st.columns([0.4,1,0.3])
