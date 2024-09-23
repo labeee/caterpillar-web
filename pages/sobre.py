@@ -12,12 +12,6 @@ st.set_page_config(
 st.markdown(
     """
 <style>
-    [data-testid="collapsedControl"] {
-        display: none
-    }
-    [data-testid="stToolbarActions"] {
-        display: none
-    }
     [data-testid="stBaseButton-headerNoPadding"] {
         display: none
     }
