@@ -9,27 +9,27 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-st.markdown('#')
-cols = st.columns([0.4,1,0.3])
-cols[1].title("CATERPILLAR WEB")
-cols[2].image(r"static/icon_default.ico", width=100)
+# st.markdown('#')
+# cols = st.columns([0.4,1,0.3])
+# cols[1].title("CATERPILLAR WEB")
+# cols[2].image(r"static/icon_default.ico", width=100)
 
-st.markdown(
-    """
-<style>
-    [data-testid="collapsedControl"] {
-        display: none
-    }
-    [data-testid="stToolbarActions"] {
-        display: none
-    }
-    [data-testid="stBaseButton-headerNoPadding"] {
-        display: none
-    }
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-</style>
-""", unsafe_allow_html=True)
+# st.markdown(
+#     """
+# <style>
+#     [data-testid="collapsedControl"] {
+#         display: none
+#     }
+#     [data-testid="stToolbarActions"] {
+#         display: none
+#     }
+#     [data-testid="stBaseButton-headerNoPadding"] {
+#         display: none
+#     }
+#     #MainMenu {visibility: hidden;}
+#     footer {visibility: hidden;}
+# </style>
+# """, unsafe_allow_html=True)
 
 if st.button("Sobre", use_container_width=True):
     switch_page("sobre")
