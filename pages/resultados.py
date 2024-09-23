@@ -18,6 +18,9 @@ st.markdown(
     [data-testid="stToolbarActions"] {
         display: none
     }
+    [data-testid="stBaseButton-headerNoPadding"] {
+        display: none
+    }
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
 </style>
